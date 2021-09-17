@@ -117,7 +117,7 @@ If you are interested in running a Telegram bot, more information can be found a
 ### Run
 
 ```shell
-python -m binance_trade_bot
+python3 -m binance_trade_bot
 ```
 
 ### Docker
@@ -139,7 +139,7 @@ docker-compose up -d sqlitebrowser
 You can test the bot on historic data to see how it performs.
 
 ```shell
-python backtest.py
+python3 backtest.py
 ```
 
 Feel free to modify that file to test and compare different settings and time periods
